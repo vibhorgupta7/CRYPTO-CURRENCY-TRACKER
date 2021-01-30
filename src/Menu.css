@@ -1,0 +1,50 @@
+.menu-container{
+    display: flex;
+    justify-content: center;
+    /* border: 2px solid green; */
+
+}
+
+.menu-row{
+    display: flex;
+    flex-direction: row;
+    justify-content: start;
+    align-items: center;
+    height: 80px;
+    /* border-bottom: 1px solid #d7d7d7; */
+    width: 930px;
+    /* border: 2px solid red; */
+}
+
+
+.menu {
+    display: flex;
+    align-items: center;
+    padding-right: 24px;
+    min-width: 300px;
+    /* border: 2px solid blue; */
+}
+.menu h1{
+     font-size: 50px;
+     width: 150px;
+     /* border: 2px solid pink; */
+     margin-bottom: 40px;
+     color:grey;
+}
+
+.menu-data{
+    display: flex;
+    text-align: center;
+    justify-content: space-between;
+    width: 100%;
+    margin-bottom: 40px;
+    /* border: 2px solid white; */
+}
+
+.menu-data{
+    font-size: 30px;
+    
+}
+.menu-data p{
+    color: grey;
+}
